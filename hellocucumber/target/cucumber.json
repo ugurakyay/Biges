@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-14T11:12:14.720Z",
+        "line": 3,
+        "name": "login test",
+        "description": "",
+        "id": "login-test-case;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3233000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user can login",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.user_can_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.user_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user password",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.user_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.user_click_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User looged in",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.user_looged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login test case",
+    "description": "",
+    "id": "login-test-case",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/test.feature",
+    "tags": []
+  }
+]
